@@ -1,2 +1,7 @@
 #include "../include/test.hpp"
-void func(){}
+
+#include <iostream>
+
+void test(){
+  std::cout << "test\n";
+}
