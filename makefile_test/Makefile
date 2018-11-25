@@ -1,8 +1,8 @@
 all: main.o test.o
 		g++ -o main main.o test.o
-main.o: src/main.cpp
-		g++ -c src/main.cpp
-test.o: src/test.cpp
-		g++ -c src/test.cpp
+main.o: src/main.c
+		g++ -c src/main.c
+test.o: src/test.c
+		g++ -c src/test.c
 clean:
 		rm main.o test.o
