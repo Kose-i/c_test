@@ -14,8 +14,14 @@
 
 int main(int argc, char** argv) {
   int fd = open("/dev/input/event0",O_WRONLY);
+
   if (fd == 0) {
     printf("cant open /dev/input/event0");
+  } else {
+    printf("open /dev/input/event0");
   }
+
+  close(fd);
+
   return 0;
 }
