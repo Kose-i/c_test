@@ -13,4 +13,5 @@ int main(int argc, char** argv) {
   printf("tmp.i_1:%p\n", &tmp.i_1);
   printf("tmp.c_2:%p\n", &tmp.c_2);
   printf("tmp.i_2:%p\n", &tmp.i_2);
+  printf("sizeof(Tmp):%lu\n",sizeof(Tmp));
 }

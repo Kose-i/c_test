@@ -1,4 +1,0 @@
-tmp.c_1:0x7ffd1b582ff0
-tmp.i_1:0x7ffd1b582ff4
-tmp.c_2:0x7ffd1b582ff8
-tmp.i_2:0x7ffd1b582ffc
